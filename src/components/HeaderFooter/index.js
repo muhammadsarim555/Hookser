@@ -18,13 +18,13 @@ function HeaderFooter(props) {
       <View style={styles.footerContainer}>
         <View style={styles.footerSubContainer}>
           <TouchableOpacity onPress={() => navigation.navigate('AdPost')}>
-            <HomeIcon name="home" size={30} color="#900" />
+            <HomeIcon name="home" size={30} color="#B8B8B8" />
           </TouchableOpacity>
           <TouchableOpacity onPress={() => navigation.navigate('AdPost')}>
-            <Icon name="add-circle-outline" size={30} color="#900" />
+            <Icon name="add-circle-outline" size={30} color="#B8B8B8" />
           </TouchableOpacity>
           <TouchableOpacity onPress={() => navigation.navigate('AdPost')}>
-            <Icon name="person-outline" size={30} color="#900" />
+            <Icon name="person-outline" size={30} color="#B8B8B8" />
           </TouchableOpacity>
         </View>
       </View>

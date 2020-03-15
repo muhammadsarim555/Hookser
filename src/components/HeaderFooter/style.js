@@ -7,13 +7,13 @@ export default StyleSheet.create({
     flex: 1,
   },
   headerContainer: {
-    flex: 0.8,
-    backgroundColor: 'red',
+    flex: 0.7,
+    backgroundColor: 'white',
     justifyContent: 'center',
     alignItems: 'center',
   },
   footerContainer: {
-    flex: 0.9,
+    flex: 0.7,
     backgroundColor: 'white',
     borderTopColor: '#E3E5E9',
     borderTopWidth: 2,
